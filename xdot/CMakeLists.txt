@@ -1,7 +1,9 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 2.8.3)
 project(xdot)
-find_package(catkin)
+find_package(catkin REQUIRED)
+catkin_package()
+
+catkin_python_setup()
 
 install(FILES scripts/dot_viewer.py
-  DESTINATION share/xdot/bin
-  )
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
