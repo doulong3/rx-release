@@ -1,0 +1,13 @@
+Source: ros-groovy-rx
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), 
+Homepage: http://www.ros.org/wiki/rx
+Standards-Version: 3.9.2
+
+Package: ros-groovy-rx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-rxgraph,ros-groovy-xdot,ros-groovy-rxbag,ros-groovy-rxtools,ros-groovy-wxpython-swig-interface
+Description: GUI tools for ROS - rxbag, rxplot, rxgraph, and others
+
