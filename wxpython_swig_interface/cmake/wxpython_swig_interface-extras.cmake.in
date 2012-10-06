@@ -1,2 +1,0 @@
-set(@PROJECT_NAME@_SWIG_FLAGS "-I@PROJECT_SOURCE_DIR@/src/wxpython_swig_interface")
-
