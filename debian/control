@@ -1,0 +1,13 @@
+Source: ros-groovy-wxpython-swig-interface
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin
+Homepage: http://www.ros.org/wiki/wxPython_swig_interface
+Standards-Version: 3.9.2
+
+Package: ros-groovy-wxpython-swig-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-wxgtk2.8
+Description: Interface files used with SWIG to allow use of custom C++ widgets with wxPython code. These interface files were pulled from wxPython 2.8.1, because at the time that was the target version (since we were using Ubuntu Feisty). We will probably continue to use these interface files until they no longer work for some reason. The ideal situation would be if these were installed in system installs along with wxPython, but unfortunately they are not.
+
