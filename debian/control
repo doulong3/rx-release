@@ -1,0 +1,12 @@
+Source: ros-groovy-xdot
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin
+Homepage: http://www.ros.org/wiki/xdot
+Standards-Version: 3.9.2
+
+Package: ros-groovy-xdot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-wxgtk2.8,graphviz
+Description: XDot, by Jose Fonseca, is an interactive viewer for graphs written in Graphviz's dot language. This package adds front-end capabilities to XDot including WX Widget support and a mechanism for receiving callbacks when nodes are clicked. This extension is provided as BSD.
