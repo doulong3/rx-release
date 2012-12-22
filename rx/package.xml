@@ -1,13 +1,12 @@
 <package>
   <name>rx</name>
-  <version>1.9.10</version>
+  <version>1.9.11</version>
   <description>GUI tools for ROS - rxbag, rxplot, rxgraph, and others</description>
   <maintainer email="dthomas@willowgarage.com">Dirk Thomas</maintainer>
   <license>BSD</license>
   <license>LGPL</license>
   <license>Creative Commons</license>
   <license>wxWindows</license>
-  <license>Creative Commons</license>
 
   <url>http://www.ros.org/wiki/rx</url>
   <author>Ken Conley</author>
