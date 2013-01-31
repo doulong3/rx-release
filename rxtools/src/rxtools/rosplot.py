@@ -32,7 +32,7 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 #
-# Revision $Id: rosplot.py 16919 2012-08-29 21:45:06Z dthomas $
+# Revision $Id$
 
 # rosplot current exists as a support library for rxplot. rosplot is
 # incomplete as a general library for getting plottable ROS Topic
@@ -45,7 +45,6 @@ import threading
 import time
 
 import roslib.message
-import roslib.names
 import rosgraph
 import rospy
 

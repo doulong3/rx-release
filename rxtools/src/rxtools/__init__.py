@@ -30,5 +30,5 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 #
-# Revision $Id: __init__.py 5403 2009-07-29 01:54:54Z jfaustwg $
+# Revision $Id$
 

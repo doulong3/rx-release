@@ -1,15 +1,10 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 2.8)
 project(rxbag)
-find_package(catkin REQUIRED)
-catkin_package()
-
-find_package(wxWidgets REQUIRED)
-
-catkin_python_setup()
 
 install(PROGRAMS scripts/rxbag
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+        DESTINATION share/rxbag/bin)
 
 install(DIRECTORY icons
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
-  PATTERN ".svn" EXCLUDE)
+  DESTINATION share/rxbag/
+  )
+
