@@ -30,7 +30,7 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 #
-# Revision $Id: dotcode.py 15472 2011-12-29 20:59:55Z kwc $
+# Revision $Id$
 
 import rosgraph.names
 import rosgraph.impl.graph
