@@ -1,6 +1,6 @@
 <package>
   <name>wxpython_swig_interface</name>
-  <version>1.9.9</version>
+  <version>1.9.12</version>
   <description>
     Interface files used with SWIG to allow use of custom C++ widgets with wxPython code.
 
@@ -16,7 +16,11 @@
   <url type="repository">https://code.ros.org/svn/ros/stacks/rx</url>
   <url type="bugtracker">https://code.ros.org/trac/ros/query?status=assigned&amp;status=new&amp;status=reopened&amp;component=rx&amp;order=priority</url>
 
-  <build_depend>catkin</build_depend>
+  <buildtool_depend>catkin</buildtool_depend>
 
   <run_depend>wxpython</run_depend>
+
+  <export>
+    <deprecated>All wxWidget based tools are to be replaced with Qt based alternatives and therefore this package is obsolete</deprecated>
+  </export>
 </package>
