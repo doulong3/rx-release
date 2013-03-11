@@ -1,6 +1,6 @@
 <package>
   <name>rxtools</name>
-  <version>1.9.9</version>
+  <version>1.9.12</version>
   <description>
     rxtools is two things.
     First it is a library of GUI widgets, written in wxWidgets, that can be embedded in other applications. Second, it is a set of GUI applications that view and manage ROS state.
@@ -21,7 +21,8 @@
   <author>Rob Wheeler</author>
   <author>Ken Conley</author>
 
-  <build_depend>catkin</build_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+
   <build_depend>roscpp</build_depend>
   <build_depend>rosgraph_msgs</build_depend>
   <build_depend>roslib</build_depend>
@@ -40,4 +41,8 @@
   <run_depend>wxpython_swig_interface</run_depend>
   <run_depend>wxwidgets</run_depend>
   <run_depend>xdot</run_depend>
+
+  <export>
+    <deprecated>These wxWidget based tools are superseded by the Qt based tools rqt_console, rqt_logger_level and rqt_plot</deprecated>
+  </export>
 </package>
