@@ -1,6 +1,6 @@
 <package>
   <name>rx</name>
-  <version>1.9.11</version>
+  <version>1.9.12</version>
   <description>GUI tools for ROS - rxbag, rxplot, rxgraph, and others</description>
   <maintainer email="dthomas@willowgarage.com">Dirk Thomas</maintainer>
   <license>BSD</license>
@@ -20,5 +20,6 @@
 
   <export>
     <metapackage/>
+    <deprecated>These wxWidget based tools are superseded by the Qt based tool rqt and its plugins</deprecated>
   </export>
 </package>
