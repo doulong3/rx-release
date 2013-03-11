@@ -30,7 +30,7 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 #
-# Revision $Id: rxplot_main.py 16336 2012-02-18 20:27:17Z kwc $
+# Revision $Id$
 
 from __future__ import print_function
 
