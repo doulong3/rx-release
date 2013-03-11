@@ -37,7 +37,7 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 #
-# Revision $Id: rxplot.py 17281 2012-12-07 00:10:47Z dthomas $
+# Revision $Id$
 
 PKG = 'rxtools'
 import collections

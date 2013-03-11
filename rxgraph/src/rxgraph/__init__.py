@@ -30,7 +30,7 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 #
-# Revision $Id: __init__.py 16504 2012-03-09 06:24:15Z kwc $
+# Revision $Id$
 
 from __future__ import print_function
 
