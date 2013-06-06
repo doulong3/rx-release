@@ -1,0 +1,12 @@
+Source: ros-groovy-rxbag
+Section: misc
+Priority: extra
+Maintainer: "Dirk Thomas <dthomas@osrfoundation.org>"
+Build-Depends: debhelper (>= 7.0.50~), libwxgtk2.8-dev, ros-groovy-catkin, ros-groovy-wxpython-swig-interface
+Homepage: http://www.ros.org/wiki/rxbag
+Standards-Version: 3.9.2
+
+Package: ros-groovy-rxbag
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libwxgtk2.8-dev, python-gtk2, python-rospkg, python-wxgtk2.8, ros-groovy-rosbag, ros-groovy-rosgraph, ros-groovy-roslib, ros-groovy-rospy, ros-groovy-wxpython-swig-interface
+Description: rxbag is a GUI tool for visualizing, inspecting and replaying histories of ROS messages. Some icons from the Silk icon pack are used, which is available from famfamfam.com.
