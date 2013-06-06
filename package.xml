@@ -1,6 +1,6 @@
 <package>
   <name>rxtools</name>
-  <version>1.9.12</version>
+  <version>1.9.13</version>
   <description>
     rxtools is two things.
     First it is a library of GUI widgets, written in wxWidgets, that can be embedded in other applications. Second, it is a set of GUI applications that view and manage ROS state.
@@ -10,7 +10,7 @@
     These icons have a separate Creative Commons Attribution 2.5 License.
     The source code for the software in this package is BSD.
   </description>
-  <maintainer email="dthomas@willowgarage.com">Dirk Thomas</maintainer>
+  <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
   <license>BSD</license>  
   <license>Creative Commons</license>
 
