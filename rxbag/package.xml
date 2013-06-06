@@ -1,12 +1,12 @@
 <package>
   <name>rxbag</name>
-  <version>1.9.12</version>
+  <version>1.9.13</version>
   <description>
     rxbag is a GUI tool for visualizing, inspecting and replaying histories of ROS messages.
 
     Some icons from the Silk icon pack are used, which is available from <a href="http://www.famfamfam.com/lab/icons/silk/">famfamfam.com</a>.
   </description>
-  <maintainer email="dthomas@willowgarage.com">Dirk Thomas</maintainer>
+  <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
   <license>BSD</license>  
   <license>Creative Commons</license>
 
